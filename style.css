@@ -1,3 +1,8 @@
+@import url(www.hioscar.com/_next/static/media/heldane-display-regular.02ff36d0472502d5217ad1e9a96746f4.woff2);
+@import url(www.hioscar.com/_next/static/media/LetteraTextLLTT-Regular.ae0295d68c7d5b41f42848526404ea44.woff2);
+@import url();
+@import url();
+
 * {
     /* outline: 2px solid red; */
 }
@@ -47,5 +52,38 @@ main {
     align-items: center;
 }
 
+h1 {
+    color: white;
+    font-family: Heldane Display;
+}
+p {
+    color: white
+}
 
+@media (min-width: 600px) {
+    main {
+        background: #4f50ff;
+    }
+}
 
+@media (max-width: 600px) {
+    main section img {
+        background: #4f50ff;
+        display: none;
+    }
+   main {
+    background: #4f50ff;
+    text-align: center;
+   }
+.main-nav nav {
+    display: none;
+}
+main section button {
+    width: 200px;
+    height: 50px;
+    margin: 50px;
+    border: 1px;
+    border-radius: 25px;
+}
+
+}
